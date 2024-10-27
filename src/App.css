@@ -1,0 +1,81 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.App{
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(2, 62, 62);
+  display: flex;
+  align-items: center;
+}
+.weather-app{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  min-height: 440px;
+  background-color: burlywood;
+  text-align: center;
+  margin: 0px auto;
+  border-radius: 10px;
+  padding-bottom: 32px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+ .city{
+  text-align: center;
+}
+.city-search{
+  width: 80%;
+}
+.city{
+  border: 2px solid rgb(204,204,204);
+  outline: none;
+  border-radius: 20px;
+  font-size: 16px;
+  background-color: antiquewhite;
+  padding: 6px 30px 6px 30px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  color: #333;
+}
+.city-name{
+  font-size: 1.5rem;
+  color: rgb(7, 91, 117);
+  margin: 15px 0px 8px 0px;
+}
+.date{
+  font-size: 1.50rem;
+  font-weight: 700;
+  color: rgb(5, 15, 55);
+}
+.icon-temp{
+  display: flex;
+  font-size: 3rem;
+  font-weight: 700;
+  color: rgb(61, 114, 8);
+  text-align: center;
+  align-items: center;
+}
+.deg{
+  font-size: 1.3rem;
+  vertical-align: super;
+}
+.des-wind{
+  font-weight: 700;
+  color: brown;
+  font-size: 22px;
+  margin-top: 10px;
+}
+.des-wind .second-p{
+  margin-top: 10px;
+}
+.error-message{
+  display: block;
+  text-align: center;
+  color: rgb(239, 47, 47);
+  font-size: 17px;
+  margin-top: 40px ;
+  font-weight: 600;
+}
